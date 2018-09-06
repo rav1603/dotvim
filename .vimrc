@@ -8,3 +8,4 @@ set incsearch       " Search in-time.
 set hlsearch        " Highlight results.
 " No highlight search results
 map <leader>/ :nohlsearch<CR>
+colorscheme evening
