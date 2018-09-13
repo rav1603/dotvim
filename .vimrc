@@ -22,7 +22,7 @@ Plugin 'VundleVim/Vundle.vim'
 " Color schemas
 Plugin 'tomasr/molokai'
 Plugin 'jnurmine/Zenburn'
-Plugin 'altercation/solarized'
+Plugin 'altercation/vim-colors-solarized'
 Plugin 'nanotech/jellybeans.vim'
 " All of plugins must be added before the following line
 call vundle#end()
@@ -38,4 +38,4 @@ set incsearch       " Search in-time.
 set hlsearch        " Highlight results.
 " No highlight search results
 map <leader>/ :nohlsearch<CR>
-colorscheme molokai
+colorscheme jellybeans
