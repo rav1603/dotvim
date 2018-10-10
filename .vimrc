@@ -38,4 +38,13 @@ set incsearch       " Search in-time.
 set hlsearch        " Highlight results.
 " No highlight search results
 map <leader>/ :nohlsearch<CR>
+" Clear whitespaces
+map <leader>cw :%s/\s\+$//e<CR>
+set tabstop=4       " How big tab key is.
+set softtabstop=4   " After how many columns tab has to stop.
+set shiftwidth=4    " Autoidentation?
+set expandtab	" Tab to spaces
+set smartindent     " Auto-indent for a c-like
+set backspace=indent,eol,start " Make Backspace even in eol like situations.
+set copyindent      " Take indentation from last line
 colorscheme jellybeans
