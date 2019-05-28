@@ -13,6 +13,8 @@ autocmd VimLeave * call system("xsel -ib", getreg('+'))filetype off
 set rtp+=~/.vim/bundle/Vundle.vim
 call vundle#begin()
 
+com! FormatJSON %!python -m json.tool
+
 " Let vundle manage itself
 Plugin 'VundleVim/Vundle.vim'
 
